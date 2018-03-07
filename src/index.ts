@@ -14,6 +14,7 @@ import {NgbProgressbarModule} from './progressbar/progressbar.module';
 import {NgbRatingModule} from './rating/rating.module';
 import {NgbTabsetModule, NgbTabChangeEvent} from './tabset/tabset.module';
 import {NgbTimepickerModule} from './timepicker/timepicker.module';
+import {NgbToastModule} from './toast/toast.module';
 import {NgbTooltipModule} from './tooltip/tooltip.module';
 import {NgbTypeaheadModule, NgbTypeaheadSelectItemEvent} from './typeahead/typeahead.module';
 
@@ -66,6 +67,7 @@ export {
   NgbTabTitle
 } from './tabset/tabset.module';
 export {NgbTimepickerModule, NgbTimepickerConfig, NgbTimeStruct, NgbTimepicker} from './timepicker/timepicker.module';
+export {NgbToastModule, NgbToast, NgbToastContainer} from './toast/toast.module';
 export {NgbTooltipModule, NgbTooltipConfig, NgbTooltip} from './tooltip/tooltip.module';
 export {
   NgbHighlight,
@@ -80,7 +82,7 @@ export {Placement} from './util/positioning';
 const NGB_MODULES = [
   NgbAccordionModule, NgbAlertModule, NgbButtonsModule, NgbCarouselModule, NgbCollapseModule, NgbDatepickerModule,
   NgbDropdownModule, NgbModalModule, NgbPaginationModule, NgbPopoverModule, NgbProgressbarModule, NgbRatingModule,
-  NgbTabsetModule, NgbTimepickerModule, NgbTooltipModule, NgbTypeaheadModule
+  NgbTabsetModule, NgbTimepickerModule, NgbToastModule, NgbTooltipModule, NgbTypeaheadModule
 ];
 
 @NgModule({
@@ -89,7 +91,7 @@ const NGB_MODULES = [
     NgbTooltipModule.forRoot(), NgbTypeaheadModule.forRoot(), NgbAccordionModule.forRoot(), NgbCarouselModule.forRoot(),
     NgbDatepickerModule.forRoot(), NgbDropdownModule.forRoot(), NgbModalModule.forRoot(), NgbPaginationModule.forRoot(),
     NgbPopoverModule.forRoot(), NgbProgressbarModule.forRoot(), NgbRatingModule.forRoot(), NgbTabsetModule.forRoot(),
-    NgbTimepickerModule.forRoot(), NgbTooltipModule.forRoot()
+    NgbTimepickerModule.forRoot(), NgbToastModule.forRoot(), NgbTooltipModule.forRoot()
   ],
   exports: NGB_MODULES
 })

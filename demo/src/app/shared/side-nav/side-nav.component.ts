@@ -16,6 +16,7 @@ export const componentsList = [
   'Rating',
   'Tabs',
   'Timepicker',
+  'Toast',
   'Tooltip',
   'Typeahead'
 ];

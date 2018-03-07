@@ -17,6 +17,7 @@ import {
   NgbdRating,
   NgbdTabs,
   NgbdTimepicker,
+  NgbdToast,
   NgbdTooltip,
   NgbdTypeahead
 } from './components';
@@ -107,6 +108,12 @@ const componentRoutes = [{
     children: [
       DEFAULT_API_PATH,
       {path: ':tab', component: NgbdTimepicker}
+    ]
+  }, {
+    path: 'components/toast',
+    children: [
+      DEFAULT_API_PATH,
+      {path: ':tab', component: NgbdToast}
     ]
   }, {
     path: 'components/tooltip',

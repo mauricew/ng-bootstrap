@@ -12,6 +12,7 @@ export * from './progressbar';
 export * from './rating';
 export * from './tabset';
 export * from './timepicker';
+export * from './toast';
 export * from './tooltip';
 export * from './typeahead';
 
@@ -33,6 +34,7 @@ import {NgbdProgressbarModule} from './progressbar';
 import {NgbdRatingModule} from './rating';
 import {NgbdTabsModule} from './tabset';
 import {NgbdTimepickerModule} from './timepicker';
+import {NgbdToastModule} from './toast';
 import {NgbdTooltipModule} from './tooltip';
 import {NgbdTypeaheadModule} from './typeahead';
 
@@ -53,6 +55,7 @@ import {NgbdTypeaheadModule} from './typeahead';
     NgbdRatingModule,
     NgbdTabsModule,
     NgbdTimepickerModule,
+    NgbdToastModule,
     NgbdTooltipModule,
     NgbdTypeaheadModule
   ],
@@ -71,6 +74,7 @@ import {NgbdTypeaheadModule} from './typeahead';
     NgbdRatingModule,
     NgbdTabsModule,
     NgbdTimepickerModule,
+    NgbdToastModule,
     NgbdTooltipModule,
     NgbdTypeaheadModule
   ]
